@@ -7,7 +7,7 @@ async function bootstrap() {
   app.connectMicroservice<MicroserviceOptions>({
     transport: Transport.MQTT,
     options: {
-      url: 'mqtt://localhost:1883/',
+      url: 'mqtt://vpn.kpostek.dev:1883',
     },
   });
   await app.startAllMicroservices();

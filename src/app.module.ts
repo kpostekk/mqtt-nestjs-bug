@@ -10,7 +10,7 @@ import { AppService } from './app.service';
         transport: Transport.MQTT,
         name: 'MQTT',
         options: {
-          url: 'mqtt://localhost:1883',
+          url: 'mqtt://vpn.kpostek.dev:1883',
         },
       },
     ]),
